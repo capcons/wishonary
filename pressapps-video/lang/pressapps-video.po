@@ -1,0 +1,287 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Video\n"
+"POT-Creation-Date: 2019-10-23 16:02-0500\n"
+"PO-Revision-Date: 2019-10-23 16:02-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_n:1,2;_x:1,2c;_ex:1,2x;esc_attr__;esc_attr_e;_;"
+"gettext;gettext_noop\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: lang\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: includes/admin.php:8
+msgid "PressApps Video"
+msgstr ""
+
+#: includes/admin.php:21
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/admin.php:48
+msgid "Setup"
+msgstr ""
+
+#: includes/admin.php:50
+msgid "Featured Video Layout"
+msgstr ""
+
+#: includes/admin.php:55
+msgid "Video Left - Title & Text Right"
+msgstr ""
+
+#: includes/admin.php:56
+msgid "Full Width Video - Title & Text Below"
+msgstr ""
+
+#: includes/admin.php:58
+msgid "Select video layout for desktop."
+msgstr ""
+
+#: includes/admin.php:60
+msgid "Thumbnail Columns"
+msgstr ""
+
+#: includes/admin.php:65
+msgid "1 Column"
+msgstr ""
+
+#: includes/admin.php:66
+msgid "2 Columns"
+msgstr ""
+
+#: includes/admin.php:67
+msgid "3 Columns"
+msgstr ""
+
+#: includes/admin.php:68
+msgid "4 Columns"
+msgstr ""
+
+#: includes/admin.php:69
+msgid "5 Columns"
+msgstr ""
+
+#: includes/admin.php:71
+msgid "Select number of thumbnail columns."
+msgstr ""
+
+#: includes/admin.php:73
+msgid "Filter Navigation"
+msgstr ""
+
+#: includes/admin.php:78
+msgid "Display"
+msgstr ""
+
+#: includes/admin.php:79 includes/admin.php:90
+msgid "Hide"
+msgstr ""
+
+#: includes/admin.php:81
+msgid "Display category filter navigation."
+msgstr ""
+
+#: includes/admin.php:83
+msgid "Thumbnail Titles"
+msgstr ""
+
+#: includes/admin.php:88
+msgid "Above Thumbnails"
+msgstr ""
+
+#: includes/admin.php:89
+msgid "Below Thumbnails"
+msgstr ""
+
+#: includes/admin.php:92
+msgid "Display thumbnail titles."
+msgstr ""
+
+#: includes/admin.php:94
+msgid "Autoplay inview"
+msgstr ""
+
+#: includes/admin.php:99
+msgid ""
+"Play a video when it enters the viewport and pause it again when it leaves "
+"the viewport."
+msgstr ""
+
+#: includes/admin.php:101
+msgid "Scroll To Top"
+msgstr ""
+
+#: includes/admin.php:106
+msgid ""
+"Enable scroll to top on thumbnail click (does not apply when lightbox "
+"enabled)."
+msgstr ""
+
+#: includes/admin.php:111
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/admin.php:116
+msgid "Add custom CSS code."
+msgstr ""
+
+#: includes/filters.php:13
+msgid "Shortcode"
+msgstr ""
+
+#: includes/filters.php:34
+msgid "Title"
+msgstr ""
+
+#: includes/filters.php:35 pressapps-video.php:90
+msgid "Category"
+msgstr ""
+
+#: includes/help.php:11
+msgid "Video Shortcode"
+msgstr ""
+
+#: includes/help.php:14
+msgid "<h2>Video Shortcode</h2>"
+msgstr ""
+
+#: includes/help.php:16
+msgid ""
+"You can use <code>[pa_video]</code> shortcode to include the Videos on any "
+"page, post or custom post type."
+msgstr ""
+
+#: includes/help.php:18
+msgid "The shortcode accepts four optional attributes:"
+msgstr ""
+
+#: includes/help.php:19
+msgid "(1) <b>category</b> = <i>-1</i> <b>|</b> <i>{any video category id}</i>"
+msgstr ""
+
+#: includes/help.php:20
+msgid "(2) <b>featured</b> = <i>75</i> <b>|</b> <i>{any video post id}</i>"
+msgstr ""
+
+#: includes/help.php:21
+msgid "(3) <b>template</b> = <i>search</i>"
+msgstr ""
+
+#: includes/help.php:22
+msgid "(4) <b>lightbox</b> = <i>true</i>"
+msgstr ""
+
+#: includes/help.php:23
+msgid "<b>Examples</b>"
+msgstr ""
+
+#: includes/help.php:24
+msgid "1. <code>[pa_video]</code>"
+msgstr ""
+
+#: includes/help.php:25
+#, php-format
+msgid ""
+"2. <code>[pa_video category={category_id}]</code> {category_id} you will "
+"find it <a href=\"%s\">here</a> under shortcode column"
+msgstr ""
+
+#: includes/help.php:26
+msgid ""
+"3. <code>[pa_video category={category_id} featured={video_post_id} template="
+"\"search\" lightbox=\"true\"]</code>"
+msgstr ""
+
+#: pressapps-video.php:62
+msgid "Video Posts"
+msgstr ""
+
+#: pressapps-video.php:64
+msgid "Videos"
+msgstr ""
+
+#: pressapps-video.php:65
+msgid "Video"
+msgstr ""
+
+#: pressapps-video.php:66
+msgid "Add New"
+msgstr ""
+
+#: pressapps-video.php:67
+msgid "Add New Video"
+msgstr ""
+
+#: pressapps-video.php:68
+msgid "Edit Video"
+msgstr ""
+
+#: pressapps-video.php:69
+msgid "New Video"
+msgstr ""
+
+#: pressapps-video.php:70
+msgid "View Video"
+msgstr ""
+
+#: pressapps-video.php:71
+msgid "Search Videos"
+msgstr ""
+
+#: pressapps-video.php:72
+msgid "No Videos found"
+msgstr ""
+
+#: pressapps-video.php:73
+msgid "No Videos found in Trash"
+msgstr ""
+
+#: pressapps-video.php:74
+msgid "All Videos"
+msgstr ""
+
+#: pressapps-video.php:89 pressapps-video.php:100
+msgid "Categories"
+msgstr ""
+
+#: pressapps-video.php:91
+msgid "Search Categories"
+msgstr ""
+
+#: pressapps-video.php:92
+msgid "All Categories"
+msgstr ""
+
+#: pressapps-video.php:93
+msgid "Parent Category"
+msgstr ""
+
+#: pressapps-video.php:94
+msgid "Parent Category:"
+msgstr ""
+
+#: pressapps-video.php:95
+msgid "Edit Category"
+msgstr ""
+
+#: pressapps-video.php:96
+msgid "Update Category"
+msgstr ""
+
+#: pressapps-video.php:97
+msgid "Add New Category"
+msgstr ""
+
+#: pressapps-video.php:98
+msgid "New Category Name"
+msgstr ""

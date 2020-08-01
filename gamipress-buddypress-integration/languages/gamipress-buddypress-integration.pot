@@ -1,0 +1,725 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GamiPress BuddyPress Integration\n"
+"Report-Msgid-Bugs-To: https://gamipress.com/\n"
+"POT-Creation-Date: 2020-06-30 10:23+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GamiPress (https://gamipress.com/)\n"
+"Language-Team: GamiPress <contact@gamipress.com>\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: gamipress-buddypress.php:222
+#, php-format
+msgid "GamiPress - BuddyPress integration requires %s and %s in order to work. Please install and activate them."
+msgstr ""
+
+#: includes/admin.php:81 includes/admin/recount-activity.php:23
+#: includes/triggers.php:21
+msgid "BuddyPress"
+msgstr ""
+
+#: includes/admin.php:87
+msgid "Where Place User Points?"
+msgstr ""
+
+#: includes/admin.php:88
+msgid "Check this option to show the user points on the BuddyPress profile."
+msgstr ""
+
+#: includes/admin.php:91 includes/admin.php:147 includes/admin.php:268
+msgid "Not display"
+msgstr ""
+
+#: includes/admin.php:92 includes/admin.php:148 includes/admin.php:269
+msgid "As a new profile tab"
+msgstr ""
+
+#: includes/admin.php:93 includes/admin.php:149 includes/admin.php:270
+msgid "At top (before the user name)"
+msgstr ""
+
+#: includes/admin.php:94 includes/admin.php:150 includes/admin.php:271
+msgid "Both"
+msgstr ""
+
+#: includes/admin.php:98
+msgid "User Profile Points Tab Title"
+msgstr ""
+
+#: includes/admin.php:99 includes/admin.php:155 includes/admin.php:276
+msgid "Text to show on the BuddyPress user profile."
+msgstr ""
+
+#: includes/admin.php:101 includes/admin.php:373
+#: includes/components/gamipress-points-bp-component.php:32
+#: includes/components/gamipress-points-bp-component.php:70
+msgid "Points"
+msgstr ""
+
+#: includes/admin.php:104
+msgid "User Profile Points Tab Slug (Option)"
+msgstr ""
+
+#: includes/admin.php:105 includes/admin.php:161 includes/admin.php:282
+msgid "URL slug to use on the profile tab. Leave blank and slug will be a URL version of the tab title (eg: \"My Tab Title\" will have a slug like \"my-tab-title\")."
+msgstr ""
+
+#: includes/admin.php:106 includes/admin.php:162 includes/admin.php:283
+msgid "<strong>Important:</strong> If you set a tab title with special characters then provide a slug with URL friendly characters."
+msgstr ""
+
+#: includes/admin.php:110
+msgid "User Profile Points Types"
+msgstr ""
+
+#: includes/admin.php:111
+msgid "Choose the points types you want to show on BuddyPress user profile."
+msgstr ""
+
+#: includes/admin.php:112 includes/admin.php:168 includes/admin.php:289
+msgid "<strong>Note:</strong> You can drag and drop this options to reorder them. The order you set will affect to the order they will get displayed on the profile."
+msgstr ""
+
+#: includes/admin.php:117
+msgid "Points At Top Display Options"
+msgstr ""
+
+#: includes/admin.php:118
+msgid "Setup how points should look at top of the BuddyPress user profile."
+msgstr ""
+
+#: includes/admin.php:122 includes/admin.php:178 includes/admin.php:299
+msgid "Show Thumbnail"
+msgstr ""
+
+#: includes/admin.php:123
+msgid "Show the points type featured image."
+msgstr ""
+
+#: includes/admin.php:128 includes/admin.php:184 includes/admin.php:305
+msgid "Thumbnail Size"
+msgstr ""
+
+#: includes/admin.php:129 includes/admin.php:185 includes/admin.php:306
+msgid "Set the thumbnail size (in pixels)."
+msgstr ""
+
+#: includes/admin.php:134 includes/admin.php:202 includes/admin.php:323
+msgid "Show Label"
+msgstr ""
+
+#: includes/admin.php:135
+msgid "Show the points type singular or plural label."
+msgstr ""
+
+#: includes/admin.php:143
+msgid "Where Place User Achievements?"
+msgstr ""
+
+#: includes/admin.php:144
+msgid "Check this option to show the user achievements on the BuddyPress profile."
+msgstr ""
+
+#: includes/admin.php:154
+msgid "User Profile Achievement Types Tab Title"
+msgstr ""
+
+#: includes/admin.php:157 includes/admin.php:388 includes/bp-members.php:91
+#: includes/components/gamipress-achievements-bp-component.php:32
+#: includes/components/gamipress-achievements-bp-component.php:75
+msgid "Achievements"
+msgstr ""
+
+#: includes/admin.php:160
+msgid "User Profile Achievement Types Tab Slug (Option)"
+msgstr ""
+
+#: includes/admin.php:166
+msgid "User Profile Achievement Types"
+msgstr ""
+
+#: includes/admin.php:167
+msgid "Choose the achievement types you want to show on BuddyPress user profile achievements tab."
+msgstr ""
+
+#: includes/admin.php:173
+msgid "Achievements At Top Display Options"
+msgstr ""
+
+#: includes/admin.php:174
+msgid "Setup how achievements should look at top of the BuddyPress user profile."
+msgstr ""
+
+#: includes/admin.php:179 includes/admin.php:300
+msgid "Show the achievement featured image."
+msgstr ""
+
+#: includes/admin.php:190 includes/admin.php:311
+msgid "Show Title"
+msgstr ""
+
+#: includes/admin.php:191
+msgid "Show the achievements title."
+msgstr ""
+
+#: includes/admin.php:196 includes/admin.php:317
+msgid "Show Link"
+msgstr ""
+
+#: includes/admin.php:197
+msgid "Add a link to the achievement page."
+msgstr ""
+
+#: includes/admin.php:203
+msgid "Show the achievement type label."
+msgstr ""
+
+#: includes/admin.php:208 includes/admin.php:233
+msgid "Limit"
+msgstr ""
+
+#: includes/admin.php:209 includes/admin.php:234
+msgid "Number of achievements to display."
+msgstr ""
+
+#: includes/admin.php:214
+msgid "Achievements Tab Display Options"
+msgstr ""
+
+#: includes/admin.php:215
+msgid "Setup how achievements should look on the BuddyPress user profile tab."
+msgstr ""
+
+#: includes/admin.php:219 includes/admin.php:334
+msgid "Columns"
+msgstr ""
+
+#: includes/admin.php:220
+msgid "Columns to divide achievements."
+msgstr ""
+
+#: includes/admin.php:223 includes/admin.php:338
+msgid "1 Column"
+msgstr ""
+
+#: includes/admin.php:224 includes/admin.php:339
+msgid "2 Columns"
+msgstr ""
+
+#: includes/admin.php:225 includes/admin.php:340
+msgid "3 Columns"
+msgstr ""
+
+#: includes/admin.php:226 includes/admin.php:341
+msgid "4 Columns"
+msgstr ""
+
+#: includes/admin.php:227 includes/admin.php:342
+msgid "5 Columns"
+msgstr ""
+
+#: includes/admin.php:228 includes/admin.php:343
+msgid "6 Columns"
+msgstr ""
+
+#: includes/admin.php:239 includes/admin.php:348
+msgid "Order By"
+msgstr ""
+
+#: includes/admin.php:240 includes/admin.php:349
+msgid "Parameter to use for sorting."
+msgstr ""
+
+#: includes/admin.php:243
+msgid "Menu Order"
+msgstr ""
+
+#: includes/admin.php:244
+msgid "Achievement ID"
+msgstr ""
+
+#: includes/admin.php:245
+msgid "Achievement Title"
+msgstr ""
+
+#: includes/admin.php:246 includes/admin.php:355
+msgid "Published Date"
+msgstr ""
+
+#: includes/admin.php:247 includes/admin.php:356
+msgid "Last Modified Date"
+msgstr ""
+
+#: includes/admin.php:248
+msgid "Achievement Author"
+msgstr ""
+
+#: includes/admin.php:249 includes/admin.php:357
+msgid "Random"
+msgstr ""
+
+#: includes/admin.php:254 includes/admin.php:362
+msgid "Order"
+msgstr ""
+
+#: includes/admin.php:255 includes/admin.php:363
+msgid "Sort order."
+msgstr ""
+
+#: includes/admin.php:257 includes/admin.php:365
+msgid "Ascending"
+msgstr ""
+
+#: includes/admin.php:257 includes/admin.php:365
+msgid "Descending"
+msgstr ""
+
+#: includes/admin.php:264
+msgid "Where Place User Ranks?"
+msgstr ""
+
+#: includes/admin.php:265
+msgid "Check this option to show the user ranks on the BuddyPress profile."
+msgstr ""
+
+#: includes/admin.php:275
+msgid "User Profile Rank Types Tab Title"
+msgstr ""
+
+#: includes/admin.php:278 includes/admin.php:412
+#: includes/components/gamipress-ranks-bp-component.php:32
+#: includes/components/gamipress-ranks-bp-component.php:70
+msgid "Ranks"
+msgstr ""
+
+#: includes/admin.php:281
+msgid "User Profile Rank Types Tab Slug (Option)"
+msgstr ""
+
+#: includes/admin.php:287
+msgid "User Profile Rank Types"
+msgstr ""
+
+#: includes/admin.php:288
+msgid "Choose the rank types you want to show on BuddyPress user profile ranks tab."
+msgstr ""
+
+#: includes/admin.php:294
+msgid "Ranks At Top Display Options"
+msgstr ""
+
+#: includes/admin.php:295
+msgid "Setup how ranks should look at top of the BuddyPress user profile."
+msgstr ""
+
+#: includes/admin.php:312
+msgid "Show the rank title."
+msgstr ""
+
+#: includes/admin.php:318
+msgid "Add a link to the rank page."
+msgstr ""
+
+#: includes/admin.php:324
+msgid "Show the rank type label."
+msgstr ""
+
+#: includes/admin.php:329
+msgid "Ranks Tab Display Options"
+msgstr ""
+
+#: includes/admin.php:330
+msgid "Setup how ranks should look on the BuddyPress user profile tab."
+msgstr ""
+
+#: includes/admin.php:335
+msgid "Columns to divide ranks."
+msgstr ""
+
+#: includes/admin.php:352
+msgid "Priority"
+msgstr ""
+
+#: includes/admin.php:353
+msgid "Rank ID"
+msgstr ""
+
+#: includes/admin.php:354
+msgid "Rank Title"
+msgstr ""
+
+#: includes/admin.php:613
+msgid "BuddyPress integration"
+msgstr ""
+
+#: includes/admin/recount-activity.php:24
+msgid "Recount activated accounts"
+msgstr ""
+
+#: includes/admin/recount-activity.php:29 includes/triggers.php:36
+msgid "BuddyPress Friendships"
+msgstr ""
+
+#: includes/admin/recount-activity.php:30
+msgid "Recount friendships"
+msgstr ""
+
+#: includes/admin/recount-activity.php:36 includes/triggers.php:45
+msgid "BuddyPress Messages"
+msgstr ""
+
+#: includes/admin/recount-activity.php:37
+msgid "Recount messages sent/replied"
+msgstr ""
+
+#: includes/admin/recount-activity.php:43 includes/triggers.php:52
+msgid "BuddyPress Activity"
+msgstr ""
+
+#: includes/admin/recount-activity.php:44
+msgid "Recount activity stream messages"
+msgstr ""
+
+#: includes/admin/recount-activity.php:45
+msgid "Recount activity replies"
+msgstr ""
+
+#: includes/admin/recount-activity.php:46
+msgid "Recount activity favorites"
+msgstr ""
+
+#: includes/admin/recount-activity.php:52 includes/triggers.php:65
+msgid "BuddyPress Groups"
+msgstr ""
+
+#: includes/admin/recount-activity.php:53
+msgid "Recount groups activity stream messages"
+msgstr ""
+
+#: includes/admin/recount-activity.php:54
+msgid "Recount groups joins"
+msgstr ""
+
+#: includes/admin/recount-activity.php:55
+msgid "Recount groups promotions to moderator/administrator"
+msgstr ""
+
+#: includes/admin/recount-activity.php:89
+#: includes/admin/recount-activity.php:406
+#, php-format
+msgid "%d users found, recounting..."
+msgstr ""
+
+#: includes/admin/recount-activity.php:114
+#: includes/admin/recount-activity.php:432
+#, php-format
+msgid "%d remaining users to finish recount"
+msgstr ""
+
+#: includes/admin/recount-activity.php:137
+msgid "BuddyPress Friends module is not active."
+msgstr ""
+
+#: includes/admin/recount-activity.php:156
+#, php-format
+msgid "%d friendships found, recounting..."
+msgstr ""
+
+#: includes/admin/recount-activity.php:177
+#, php-format
+msgid "%d remaining friendships to finish recount"
+msgstr ""
+
+#: includes/admin/recount-activity.php:200
+msgid "BuddyPress Messages module is not active."
+msgstr ""
+
+#: includes/admin/recount-activity.php:219
+#, php-format
+msgid "%d messages found, recounting..."
+msgstr ""
+
+#: includes/admin/recount-activity.php:240
+#, php-format
+msgid "%d remaining messages to finish recount"
+msgstr ""
+
+#: includes/admin/recount-activity.php:263
+#: includes/admin/recount-activity.php:326
+#: includes/admin/recount-activity.php:389
+msgid "BuddyPress Activity module is not active."
+msgstr ""
+
+#: includes/admin/recount-activity.php:282
+#: includes/admin/recount-activity.php:345
+#, php-format
+msgid "%d activities found, recounting..."
+msgstr ""
+
+#: includes/admin/recount-activity.php:303
+#: includes/admin/recount-activity.php:366
+#, php-format
+msgid "%d remaining activities to finish recount"
+msgstr ""
+
+#: includes/admin/recount-activity.php:455
+#: includes/admin/recount-activity.php:525
+#: includes/admin/recount-activity.php:595
+msgid "BuddyPress Groups module is not active."
+msgstr ""
+
+#: includes/admin/recount-activity.php:474
+#: includes/admin/recount-activity.php:544
+#, php-format
+msgid "%d groups found, recounting..."
+msgstr ""
+
+#: includes/admin/recount-activity.php:502
+#: includes/admin/recount-activity.php:572
+#, php-format
+msgid "%d remaining groups to finish recount"
+msgstr ""
+
+#: includes/admin/recount-activity.php:614
+#, php-format
+msgid "%d group members found, recounting..."
+msgstr ""
+
+#: includes/admin/recount-activity.php:636
+#, php-format
+msgid "%d remaining group members to finish recount"
+msgstr ""
+
+#: includes/bp-activity.php:27 includes/bp-activity.php:48
+#: includes/bp-activity.php:69
+msgid "BuddyPress Member Activity"
+msgstr ""
+
+#: includes/bp-activity.php:31
+msgid "Awards activity entries"
+msgstr ""
+
+#: includes/bp-activity.php:32
+msgid "Create an activity entry on user's profile when they get awarded by points award of this type."
+msgstr ""
+
+#: includes/bp-activity.php:37
+msgid "Deducts activity entries"
+msgstr ""
+
+#: includes/bp-activity.php:38
+msgid "Create an activity entry on user's profile when they get deducted by a points deduct of this type."
+msgstr ""
+
+#: includes/bp-activity.php:52
+msgid "Achievement activity entries"
+msgstr ""
+
+#: includes/bp-activity.php:53
+msgid "Create an activity entry on user's profile when they earn an achievement of this type."
+msgstr ""
+
+#: includes/bp-activity.php:58
+msgid "Step activity entries"
+msgstr ""
+
+#: includes/bp-activity.php:59
+msgid "Create an activity entry on user's profile when they complete a step of an achievement of this type."
+msgstr ""
+
+#: includes/bp-activity.php:73
+msgid "Rank activity entries"
+msgstr ""
+
+#: includes/bp-activity.php:74
+msgid "Create an activity entry on user's profile when they reach a new rank of this type."
+msgstr ""
+
+#: includes/bp-activity.php:79
+msgid "Rank requirement activity entries"
+msgstr ""
+
+#: includes/bp-activity.php:80
+msgid "Create an activity entry on user's profile when they complete a rank requirement of a rank of this type."
+msgstr ""
+
+#: includes/bp-activity.php:187
+#, php-format
+msgid "%1$s earned %2$s"
+msgstr ""
+
+#: includes/bp-activity.php:190
+#, php-format
+msgid "%1$s lost %2$s"
+msgstr ""
+
+#: includes/bp-activity.php:254
+#, php-format
+msgid "%1$s earned the %2$s %3$s"
+msgstr ""
+
+#: includes/bp-activity.php:314
+#, php-format
+msgid "%1$s completed the step \"%2$s\" of the %3$s %4$s"
+msgstr ""
+
+#: includes/bp-activity.php:372
+#, php-format
+msgid "%1$s reached the %2$s %3$s"
+msgstr ""
+
+#: includes/bp-activity.php:432
+#, php-format
+msgid "%1$s completed the requirement \"%2$s\" of the %3$s %4$s"
+msgstr ""
+
+#: includes/components/gamipress-achievements-bp-component.php:24
+msgid "GamiPress Achievements"
+msgstr ""
+
+#: includes/components/gamipress-points-bp-component.php:24
+msgid "GamiPress Points"
+msgstr ""
+
+#: includes/components/gamipress-ranks-bp-component.php:24
+msgid "GamiPress Ranks"
+msgstr ""
+
+#: includes/triggers.php:22
+msgid "Activated account"
+msgstr ""
+
+#: includes/triggers.php:27
+msgid "BuddyPress Profile"
+msgstr ""
+
+#: includes/triggers.php:28
+msgid "Change profile avatar"
+msgstr ""
+
+#: includes/triggers.php:29
+msgid "Change cover image"
+msgstr ""
+
+#: includes/triggers.php:30
+msgid "Update profile information"
+msgstr ""
+
+#: includes/triggers.php:37
+msgid "Send a friendship request"
+msgstr ""
+
+#: includes/triggers.php:38
+msgid "Accept a friendship request"
+msgstr ""
+
+#: includes/triggers.php:39
+msgid "Get a friendship request accepted"
+msgstr ""
+
+#: includes/triggers.php:46
+msgid "Send/Reply to a private message"
+msgstr ""
+
+#: includes/triggers.php:53
+msgid "Write an activity stream message"
+msgstr ""
+
+#: includes/triggers.php:54
+msgid "Remove an activity stream message"
+msgstr ""
+
+#: includes/triggers.php:55
+msgid "Reply to an item in an activity stream"
+msgstr ""
+
+#: includes/triggers.php:56
+msgid "Favorite an activity stream item"
+msgstr ""
+
+#: includes/triggers.php:57
+msgid "Remove a favorite on an activity stream item"
+msgstr ""
+
+#: includes/triggers.php:58
+msgid "Get a favorite on an activity stream item"
+msgstr ""
+
+#: includes/triggers.php:59
+msgid "Get a favorite removed on an activity stream item"
+msgstr ""
+
+#: includes/triggers.php:66
+msgid "Write a group activity stream message"
+msgstr ""
+
+#: includes/triggers.php:67
+msgid "Remove a group activity stream message"
+msgstr ""
+
+#: includes/triggers.php:68
+msgid "Create a group"
+msgstr ""
+
+#: includes/triggers.php:69
+msgid "Join a group"
+msgstr ""
+
+#: includes/triggers.php:70
+msgid "Join a specific group"
+msgstr ""
+
+#: includes/triggers.php:71
+msgid "Leave a group"
+msgstr ""
+
+#: includes/triggers.php:72
+msgid "Leave a specific group"
+msgstr ""
+
+#: includes/triggers.php:73
+msgid "Get accepted on a private group"
+msgstr ""
+
+#: includes/triggers.php:74
+msgid "Get accepted on a specific private group"
+msgstr ""
+
+#: includes/triggers.php:75
+msgid "Invite someone to join a group"
+msgstr ""
+
+#: includes/triggers.php:76
+msgid "Promoted to group moderator/administrator"
+msgstr ""
+
+#: includes/triggers.php:77
+msgid "Promote another group member to moderator/administrator"
+msgstr ""
+
+#: includes/triggers.php:114
+#, php-format
+msgid "Join %s group"
+msgstr ""
+
+#: includes/triggers.php:115
+#, php-format
+msgid "Leave %s group"
+msgstr ""
+
+#: includes/triggers.php:116
+#, php-format
+msgid "Get accepted on %s group"
+msgstr ""

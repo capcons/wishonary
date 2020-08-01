@@ -1,0 +1,271 @@
+.toplevel_page_license-page #wpcontent{
+    padding-left: 0;
+}
+.wpcf-license-head {
+    background-color:#fff;
+    text-align:center;
+    box-shadow:0 1px 0 rgba(200,215,225,0.5),0 1px 2px #e9eff3
+}
+.wpcf-license-head__inside-container {
+    padding:.375rem 0;
+    margin:0 auto;
+    width:100%;
+    max-width:45rem;
+    text-align: left;
+}
+.wpcf-license-head__logo-container {
+    padding:.3125rem 0 0
+}
+.wpcf-license-head__logo {
+    width:10.375rem;
+    height:1.8125rem;
+}
+.wpcf-license-head__logo-link {
+    display:inline-block;
+    outline:none;
+    vertical-align:middle
+}
+.wpcf-license-head__logo-link:focus {
+    line-height:0;
+    box-shadow:0 0 0 2px #78dcfa
+}
+.wpcf-license-head__logo-link+code {
+    margin:0 10px;
+    padding:5px 9px;
+    border-radius:2px;
+    background:#e6ecf1;
+    color:#647a88
+}
+.wpcf-license-head__links {
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-flow:row wrap;
+    flex-flow:row wrap;
+    -ms-flex:2 50%;
+    flex:2 50%;
+    -ms-flex-pack:end;
+    justify-content:flex-end;
+    margin:0
+}
+.wpcf-license-head__link-li {
+    margin:0;
+    padding:0
+}
+.wpcf-license-head__link {
+    font-style:normal;
+    color:#0087be;
+    padding:.625rem;
+    display:inline-block
+}
+.wpcf-license-head__link:visited {
+    color:#0087be
+}
+.wpcf-license-head__link:active,.wpcf-license-head__link:hover {
+    color:#00aadc
+}
+.wpcf-license-head__link:hover {
+    text-decoration:underline
+}
+.wpcf-license-head__link .dashicons {
+    display:none
+}
+.wpcf-license-head__link-li:last-of-type .wpcf-license-head__link {
+    padding-right:0
+}
+.wpcf-right{
+    float: right;
+}
+.wpcf-lower{
+    margin: 0 auto;
+    text-align: left;
+    max-width: 45rem;
+    padding: 1.5rem;
+}
+.wpcf-box {
+    box-sizing: border-box;
+    background: white;
+    border: 1px solid rgba(200, 215, 225, 0.5);
+    padding-bottom: 15px;
+}
+.wpcf-box-success{
+    background: #84c618;
+}
+.wpcf-box-success h2, .wpcf-box-success p, .wpcf-box-success h3{
+    color: #FFFFFF;
+}
+.wpcf-box-error{
+    background: #FF0000;
+}
+.wpcf-box-error h2, .wpcf-box-error p, .wpcf-box-error h3{
+    color: #FFFFFF;
+}
+.wpcf-box h2, .wpcf-box h3 {
+    padding: 1.5rem 1.5rem .5rem 1.5rem;
+    margin: 0;
+}
+.wpcf-box p {
+    padding: 0 1.5rem 0.5rem 1.5rem;
+    margin: 0;
+}
+.wpcf-box p:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.wpcf-box .wpcf-right {
+    padding-right: 1.5rem;
+}
+.wpcf-boxes .wpcf-box {
+    margin-bottom: 0;
+    margin-top: -1px;
+}
+.wpcf-boxes .wpcf-box:last-child {
+    margin-bottom: 1.5rem;
+}
+.wpcf-boxes .wpcf-box:first-child {
+    margin-top: 1.5rem;
+}
+.wpcf-licence-button, .wpcf-licence-button:hover, .wpcf-licence-button:visited {
+    background: white;
+    border-color: #c8d7e1;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    color: #2e4453;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 4px;
+    padding: 7px 14px 9px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.wpcf-licence-button:hover {
+    border-color: #a8bece;
+}
+.wpcf-licence-button:active {
+    border-width: 2px 1px 1px;
+}
+.wpcf-is-primary, .wpcf-is-primary:hover, .wpcf-is-primary:visited {
+    background: #00aadc;
+    border-color: #0087be;
+    color: white;
+}
+.wpcf-is-primary:hover, .wpcf-is-primary:focus {
+    border-color: #005082;
+}
+.wpcf-is-primary:hover {
+    border-color: #005082;
+}
+.wpcf-license-head__logo-container, .wpcf-license-head__menu-contain{
+    display: inline-block;
+}
+.wpcf-license-head__logo-container{
+    width: 200px;
+}
+.wpcf-license-head__menu-contain{
+    float: right;
+    margin-top: 8px;
+}
+.wpcf-license-head__menu-contain > ul{
+    margin: 0;
+}
+.wpcf-license-head__menu-contain > ul > li {
+    padding: 0px 0px 0px 15px;
+    list-style: none;
+    display: inline-block;
+}
+.wpcf-license-head__menu-contain > ul > li.current-menu-item:first-child a:hover,
+.wpcf-license-head__menu-contain > ul > li.current-menu-ancestor:first-child a:hover {
+    color: #1f51d3;
+}
+.wpcf-license-head__menu-contain > ul > li a {
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+}
+.wpcf-license-head__menu-contain > ul > li a:hover {
+    text-decoration: none;
+    color: #1f51d3;
+}
+.wpcf-license-head__menu-contain > ul > li .current-menu-item a {
+    color: #1f51d3;
+}
+.wpcf-license-head__menu-contain > ul > li > ul {
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -ms-transition: 400ms;
+    -o-transition: 400ms;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    width: 240px;
+    position: absolute;
+    visibility: hidden;
+    z-index: 100;
+    border-radius: 0 0 3px 3px;
+    background-color: #fff;
+}
+.wpcf-license-head__menu-contain > ul > li > ul li {
+    display: block;
+    text-align: left;
+}
+.wpcf-license-head__menu-contain > ul > li > ul li a {
+    color: #000;
+    font-size: 12px;
+    padding: 0.27777778rem 1.38888889rem 0.27777778rem 1.38888889rem;
+    display: block;
+}
+.wpcf-license-head__menu-contain > ul > li > ul li a:hover {
+    color: #1f51d3;
+}
+.wpcf-license-head__menu-contain > ul > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+}
+.wpcf-license-head__menu-contain > ul > li.menu-item-has-children:after {
+    content: "\f107";
+    font-family: fontawesome;
+    margin-left: 3px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.wpcf-license-head__menu-contain > ul > li.menu-item-has-children:hover:after {
+    color: #1f51d3;
+}
+.wpcf-license-head__menu-contain > ul > li.menu-item-has-children.current-menu-ancestor:after,
+.wpcf-license-head__menu-contain > ul > li.menu-item-has-children.current-menu-item:after {
+    color: #1f51d3;
+}
+
+@media (max-width: 45rem) {
+    .wpcf-license-head {
+        padding:0 1.25rem
+    }
+}
+@media (max-width: 480px) {
+    .wpcf-license-head__link:hover,.wpcf-license-head__link:active {
+        text-decoration:none
+    }
+    .wpcf-license-head__link .dashicons {
+        display:block;
+        font-size:1.75rem
+    }
+    .wpcf-license-head__link span+span {
+        display:none
+    }
+    .wpcf-license-head__links {
+        padding-right:.625rem
+    }
+}

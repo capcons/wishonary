@@ -1,0 +1,375 @@
+{
+	"observerUrl": "./preview/dist/pdf-embed-observer.js",
+	"preferences": {
+		"previewUpdateTimeout": 0,
+		"previewDefaultBgColor": "white"
+	},
+	"settings": {
+		"tabs": [
+			{
+				"id": "content",
+				"name": "Content",
+				"active": true
+			},
+			{
+				"id": "layout",
+				"name": "Layout"
+			},
+			{
+				"id": "style",
+				"name": "Style"
+			}
+		],
+		"properties": [
+			{
+				"id": "files",
+				"name": "Files",
+				"description": "Upload your PDF files.",
+				"tab": "content",
+				"type": "complex",
+				"complex": {
+					"properties": [
+						{
+							"id": "link",
+							"name": "File",
+							"description": "Upload your PDF file.",
+							"type": "file",
+							"file": {
+								"accept": ".pdf",
+								"tabs": [
+									{
+										"name": "Upload File",
+										"value": "upload"
+									},
+									{
+										"name": "Recently Uploaded",
+										"value": "files"
+									},
+									{
+										"name": "File by URL",
+										"value": "link"
+									}
+								],
+								"old": true
+							},
+							"defaultValue": null,
+							"allowEmpty": true
+						},
+						{
+							"id": "name",
+							"name": "Name",
+							"description": "Enter the name of the file to be displayed above it.",
+							"type": "text",
+							"defaultValue": ""
+						},
+						{
+							"id": "previewImage",
+							"name": "Preview Image",
+							"description": "Upload an image or an icon to be displayed as file preview.",
+							"type": "file",
+							"file": {
+								"accept": ".jpg,.jpeg,.gif,.jpe,.png",
+								"tabs": [
+									{
+										"name": "Upload File",
+										"value": "upload"
+									},
+									{
+										"name": "Recently Uploaded",
+										"value": "files"
+									},
+									{
+										"name": "File by URL",
+										"value": "link"
+									}
+								]
+							},
+							"defaultValue": null,
+							"allowEmpty": true
+						}
+					],
+					"nameProperty": "name"
+				},
+				"defaultValue": [
+					{
+						"link": "https://files.elfsight.com/storage/_assets/pdf-embed/files/embed-pdf-file.pdf",
+						"name": "Embed PDF",
+						"previewImage": null
+					}
+				]
+			},
+			{
+				"id": "widgetTitle",
+				"name": "Widget Title",
+				"type": "text",
+				"tab": "content",
+				"defaultValue": "Docs to download",
+				"allowEmpty": true,
+				"description": "Add a title to your files widget."
+			},
+			{
+				"id": "layout",
+				"name": "How to display files",
+				"description": "Choose how you want to display your files. File viewer will let your visitors view the files directly on your site. Grid and List views are recommended in cases when you have many files. With these views your visitors can select and download the file they need.",
+				"tab": "layout",
+				"type": "select-visual",
+				"select": {
+					"options": [
+						{
+							"value": "viewer",
+							"name": "File Viewer",
+							"img": "https://files.elfsight.com/storage/_assets/pdf-embed/layouts/viewer2x.png"
+						},
+						{
+							"value": "grid",
+							"name": "Grid",
+							"img": "https://files.elfsight.com/storage/_assets/pdf-embed/layouts/grid2x.png"
+						},
+						{
+							"value": "list",
+							"name": "List",
+							"img": "https://files.elfsight.com/storage/_assets/pdf-embed/layouts/list2x.png"
+						}
+					]
+				},
+				"defaultValue": "viewer"
+			},
+			{
+				"id": "iconSettingsSubgroup",
+				"name": "File Icon Settings",
+				"tab": "layout",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"id": "showIcon",
+							"name": "Show File Icon",
+							"description": "Show/Hide the file icon.",
+							"type": "toggle",
+							"defaultValue": true
+						},
+						{
+							"id": "icon",
+							"name": "File Icon",
+							"description": "Select file icon.",
+							"type": "select-visual",
+							"select": {
+								"options": [
+									{
+										"value": "icon-1",
+										"img": "https://files.elfsight.com/storage/_assets/pdf-embed/icons/icon-1.svg"
+									},
+									{
+										"value": "icon-2",
+										"img": "https://files.elfsight.com/storage/_assets/pdf-embed/icons/icon-2.svg"
+									},
+									{
+										"value": "icon-3",
+										"img": "https://files.elfsight.com/storage/_assets/pdf-embed/icons/icon-3.svg"
+									},
+									{
+										"value": "icon-4",
+										"img": "https://files.elfsight.com/storage/_assets/pdf-embed/icons/icon-4.svg"
+									},
+									{
+										"value": "icon-5",
+										"img": "https://files.elfsight.com/storage/_assets/pdf-embed/icons/icon-5.svg"
+									},
+									{
+										"value": "icon-6",
+										"img": "https://files.elfsight.com/storage/_assets/pdf-embed/icons/icon-6.svg"
+									}
+								]
+							},
+							"defaultValue": "icon-1"
+						}
+					]
+				}
+			},
+			{
+				"id": "previewImageSettingsSubgroup",
+				"name": "Preview Image Settings",
+				"tab": "layout",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"id": "previewImageSize",
+							"name": "Preview Image Size (px)",
+							"description": "Set preview image size.",
+							"type": "slider",
+							"slider": {
+								"minLimit": 30,
+								"maxLimit": 200,
+								"floor": 30,
+								"ceil": 200,
+								"step": 1
+							},
+							"defaultValue": 30
+						}
+					]
+				}
+			},
+			{
+				"id": "downloadSettingsSubgroup",
+				"name": "Download Settings",
+				"tab": "layout",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"id": "showDownloadLink",
+							"name": "Show Download Link",
+							"description": "Show/Hide download link.",
+							"type": "toggle",
+							"defaultValue": true
+						},
+						{
+							"id": "downloadLinkText",
+							"name": "Download Link Text",
+							"description": "Enter download link text.",
+							"type": "text",
+							"defaultValue": "Download"
+						}
+					]
+				}
+			},
+			{
+				"id": "sizeSubgroup",
+				"name": "Width & Height",
+				"tab": "layout",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"id": "width",
+							"name": "Width (px, %, auto)",
+							"description": "Set the widget width in pixels. Or set \"auto\" to make it full width.",
+							"type": "text",
+							"defaultValue": 800
+						},
+						{
+							"id": "heightFactor",
+							"name": "Height to Width ratio",
+							"description": "Set the height ration to adjust document size.",
+							"type": "slider",
+							"slider": {
+								"minLimit": 0.1,
+								"maxLimit": 2,
+								"floor": 0,
+								"ceil": 2,
+								"step": 0.01,
+								"precision": 3
+							},
+							"defaultValue": 1.41
+						}
+					]
+				}
+			},
+			{
+				"id": "colorsSubgroup",
+				"name": "Colors",
+				"tab": "style",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"id": "iconColor",
+							"name": "Icon Color",
+							"description": "Set the icon color.",
+							"type": "color",
+							"defaultValue": "rgb(222, 43, 51)"
+						},
+						{
+							"id": "nameColor",
+							"name": "Name Color",
+							"description": "Set the file name color.",
+							"type": "color",
+							"defaultValue": "rgb(17, 17, 17)"
+						},
+						{
+							"id": "downloadColor",
+							"name": "Download Link Color",
+							"description": "Set the download link color.",
+							"type": "color",
+							"defaultValue": "rgb(28, 145, 255)"
+						},
+						{
+							"id": "backgroundColor",
+							"name": "Background Color",
+							"description": "Set the widget background color.",
+							"type": "color",
+							"defaultValue": null
+						},
+						{
+							"id": "fileBackgroundColor",
+							"name": "File Background Color",
+							"description": "Set the file background color.",
+							"type": "color",
+							"defaultValue": null
+						},
+						{
+							"id": "widgetTitleColor",
+							"name": "Widget Title Color",
+							"description": "Set the widget title color.",
+							"type": "color",
+							"defaultValue": "rgb(17, 17, 17)"
+						}
+					]
+				}
+			},
+			{
+				"id": "fontsSubgroup",
+				"name": "Fonts",
+				"tab": "style",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"id": "nameFontSize",
+							"name": "Name Font Size (px)",
+							"description": "Set the name font size in pixels.",
+							"type": "slider",
+							"slider": {
+								"minLimit": 10,
+								"maxLimit": 20,
+								"floor": 10,
+								"ceil": 20,
+								"step": 1
+							},
+							"defaultValue": 15
+						},
+						{
+							"id": "downloadFontSize",
+							"name": "Download Font Size (px)",
+							"description": "Set the download link font size in pixels.",
+							"type": "slider",
+							"slider": {
+								"minLimit": 10,
+								"maxLimit": 20,
+								"floor": 10,
+								"ceil": 20,
+								"step": 1
+							},
+							"defaultValue": 13
+						},
+						{
+							"id": "widgetTitleFontSize",
+							"name": "Widget Title Font Size (px)",
+							"description": "Set the widget title font size in pixels.",
+							"type": "slider",
+							"slider": {
+								"minLimit": 15,
+								"maxLimit": 40,
+								"floor": 15,
+								"ceil": 40,
+								"step": 1
+							},
+							"defaultValue": 20
+						}
+					]
+				}
+			}
+		]
+	}
+}
